@@ -78,3 +78,13 @@ redirect_from:
 
 - Oct. 2025:🎖️ Awarded the [Outstanding Master's Thesis](http://m.jyt.henan.gov.cn/2023/08-12/2795956.html) of Henan Province.
 
+---
+
+<div align="center">
+  © 2025 Huanyu Li. All rights reserved. <br>
+  Template adapted from <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>.
+
+
+
+
+
