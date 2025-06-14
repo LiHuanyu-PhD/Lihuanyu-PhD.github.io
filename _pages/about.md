@@ -34,15 +34,12 @@ redirect_from:
 }
 </style>
 
-
 <div class="intro-section" id='about-me'>
   <h1>Welcome to Huanyu Li (环宇 李)'s Homepage</h1>
   <p>
-    I am an Assistant Professor at <a href="https://lslab.ac.cn" style="text-decoration: none; font-weight: bold; color: #1a1a1a;">
-  Laoshan Laboratory</a>, China. Laoshan Laboratory is China’s national laboratory for ocean science and technology, where I conduct research in ocean observation.
+    I am currently enrolled in a doctoral program at the College of Marine Spatial Information, China University of Petroleum (East China), where my research focuses on underwater intelligent image processing and deep model compression.
   </p>
 </div>
-
 
 # 🚀 News
 
