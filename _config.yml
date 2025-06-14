@@ -29,7 +29,7 @@ author:
   pubmed           : 
   googlescholar    :  https://scholar.google.com.hk/citations?user=FF3eLgsAAAAJ&hl=zh-CN
   email            : "lhy_upc@139.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Huanyu-Li-12?ev=hdr_xprf&_sg=I17RzA0mi_nL8LBGxBpXVbfqOKQrshQy3wBCF2Pw_CS_yK0NFfFw3Jki1n-Up1w36sRzdFsAthFv7oHpPY5dQ79U&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInByZXZpb3VzUGFnZSI6ImhvbWUiLCJwb3NpdGlvbiI6Imdsb2JhbEhlYWRlciJ9fQ"
   uri              :
   bitbucket        :
   codepen          :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            :  https://orcid.org/my-orcid?orcid=0000-0001-8889-0156
+  orcid            :  "https://orcid.org/0000-0001-8889-0156"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
