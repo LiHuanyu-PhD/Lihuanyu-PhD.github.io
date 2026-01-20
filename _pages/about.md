@@ -83,9 +83,9 @@ redirect_from:
 
 
 
-## 📝 Peer Review Experience (Reviewed over 300 manuscripts for more than 20 academic journals)
+## 📝 Peer Review Experience (Reviewed over 130 manuscripts for more than 20 academic journals)
 
-### 🔄**Continuous Reviewer** (2023 – Present) for:
+### 🔄**Continuous Reviewer** (2024 – Present) for:
 
 - *IEEE Transactions on Geoscience and Remote Sensing,*
 - *Pattern Recognition*
