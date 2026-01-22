@@ -50,7 +50,7 @@ redirect_from:
 
 - Apr. 2025, 🎉Our works "<a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003422" style="text-decoration: none;">Underwater image captioning via attention mechanism based fusion of visual and textual information</a>" (***Information Fusion***) have been <strong style="color:red;">published</strong>!
 
-- Feb. 2025, 🏆Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>"( <strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong> ) has been selected as the <strong style="color:red;">Feature Article</strong> in February 2025 (the only article selected that month)!
+- Feb. 2025, 🏆Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>"( <strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong> ) has been selected as the <strong style="color:red;">Featured Article</strong> in February 2025 (the only article selected that month)!
 - Jan. 2025, 🎉Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>" ( <strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong> ) has been <strong style="color:red;">published</strong>!! 
 
 # 📝 Publications
@@ -62,7 +62,7 @@ redirect_from:
 - Chunlei Li, <strong><u>Huanyu Li</u></strong>, Guangshuai Gao, Zhoufeng Liu, Pengcheng Liu. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494623003447" style="text-decoration: none;">An accelerating convolutional neural networks via a 2D entropy based-adaptive filter search method for image recognition</a>. ***Applied Soft Computing***, 2023. 
 - <strong><u>Huanyu Li</u></strong>, Weibo Zhang, Zhuo Li, Peng Ren. <a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">PKE-UIC: A Prior Knowledge-Enhanced Underwater Image Captioning Model</a>. <strong><i>The 7th International Conference on Sensors, Signal and Image Processing</i></strong>, 2025.
 - Hao Wang, Weibo Zhang, Yinghao Xu, <strong><u>Huanyu Li</u></strong>, Peng Ren. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525007651" style="text-decoration: none;">WaterCycleDiffusion: Visual–textual fusion empowered underwater image enhancement</a>. ***Information Fusion***, 2025. 
-- Ying Zhang, <strong><u>Huanyu Li</u></strong>, Bingyu Li, Li Li, Weibo Zhang, Hao Wang, Peng Ren. An underwater acoustic semantic communication approach to underwater image transmission</a>. ***Intelligent Marine Technology and Systems***, 2025. 
+- Ying Zhang, <strong><u>Huanyu Li</u></strong>, Bingyu Li, Li Li, Weibo Zhang, Hao Wang, Peng Ren. <a href="https://link.springer.com/article/10.1007/s44295-025-00054-7" style="text-decoration: none;">An underwater acoustic semantic communication approach to underwater image transmission</a>. ***Intelligent Marine Technology and Systems***, 2025. 
 
 # 📚 Educations
 
@@ -81,23 +81,31 @@ redirect_from:
 
 # 🌍 Academic Services
 
+## 📝 Peer Review Experience (Reviewed over 150 manuscripts for more than 20 academic journals)
 
-
-## 📝 Peer Review Experience (Reviewed over 130 manuscripts for more than 20 academic journals)
-
-### 🔄**Continuous Reviewer** (2024 – Present) for:
+### 🔄**Continuous Reviewer** (2023 – Present) for:
 
 - *IEEE Transactions on Geoscience and Remote Sensing,*
+
 - *Pattern Recognition*
+
 - *Engineering Applications of Artificial Intelligence*
+
 - *Neural Networks*
+
 - *Applied Soft Computing*
+
 - *IEEE Journal of Oceanic Engineering*
+
 - *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*
+
 - *Neural Computing and Applications*
+
 - *The Visual Computer*
+
 - *Signal, Image and Video Processing*
-- *…and more.*
+
+  *…and more.*
 
 
 
