@@ -99,6 +99,8 @@ redirect_from:
 
 - *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*
 
+- *IEEE International Conference on Image Processing*
+
 - *Neural Computing and Applications*
 
 - *The Visual Computer*
