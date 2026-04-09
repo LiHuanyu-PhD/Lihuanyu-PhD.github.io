@@ -96,6 +96,10 @@ redirect_from:
 
 - *IEEE Transactions on Geoscience and Remote Sensing*
 
+- *IEEE transactions on circuits and systems for video technology*
+  
+- *IEEE Journal of Oceanic Engineering*
+
 - *Pattern Recognition*
 
 - *Engineering Applications of Artificial Intelligence*
@@ -103,8 +107,6 @@ redirect_from:
 - *Neural Networks*
 
 - *Applied Soft Computing*
-
-- *IEEE Journal of Oceanic Engineering*
 
 - *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*
 
