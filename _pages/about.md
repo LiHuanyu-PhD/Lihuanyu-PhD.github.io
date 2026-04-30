@@ -42,6 +42,8 @@ redirect_from:
 
 # 🚀 News
 
+- Apr. 2026:🎉 Awarded the [Excellence in Review 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606) by IEEE Journal of Oceanic Engineering!
+- 
 - Jan. 2026, 🎉Our works "<a href="https://link.springer.com/article/10.1007/s11263-025-02650-w" style="text-decoration: none;">Large Foundation Model Empowered Region-aware Underwater Image Captioning</a>" (<strong><i>International Journal of Computer Vision</i></strong>) have been <strong style="color:red;">published</strong>!
   
 - Jan. 2026,🏆Our works "<a href="https://ieeexplore.ieee.org/document/11062881" style="text-decoration: none;">Underwater Image Captioning With AquaSketch-Enhanced Cross-Scale Information Fusion</a>" (<strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>) and "<a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003422" style="text-decoration: none;">Underwater image captioning via attention mechanism based fusion of visual and textual information</a>" (<strong><i> Information Fusion</i></strong>) has been newly selected as <strong style="color:red;">ESI Highly Cited Papers</strong>!
@@ -84,7 +86,7 @@ redirect_from:
   
 
 # 🎖 Honors and Awards
-
+- Apr. 2026:🎖️ Awarded the [Excellence in Review 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606) by IEEE Journal of Oceanic Engineering
 - Feb. 2025: 🎖️ Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a> was awarded <a href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/featured-articles/2025-featured-article" style="text-decoration: none;">Featured Article </a> of ISPRS Journal of Photogrammetry and Remote Sensing. (**Only 12 out of 364 papers selected**.)
 - Oct. 2023:🎖️ Awarded the [Outstanding Master's Thesis](http://m.jyt.henan.gov.cn/2023/08-12/2795956.html) of Henan Province.
 
