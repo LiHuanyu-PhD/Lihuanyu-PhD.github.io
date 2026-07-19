@@ -59,7 +59,7 @@ redirect_from:
 
 - Feb. 2025, 🏆Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>"( <strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong> ) has been selected as the <strong style="color:red;">Featured Article</strong> in February 2025 (the only article selected that month)!
   
-- Jan. 2025, 🎉Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>" ( <strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong> ) has been <strong style="color:red;">published</strong>!! 
+- Jan. 2025, 🎉Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>" ( <strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong> ) has been <strong style="color:red;">published</strong>!
 
 # 📝 Publications
 
@@ -89,12 +89,13 @@ redirect_from:
 - 2015 - 2019, BEng in Automation, Zhongyuan University of Technology, China.
 
 # 🎖 Honors and Awards
-- Apr. 2026:🎖️ Awarded the [Excellence in Review 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606) by IEEE Journal of Oceanic Engineering
+
+- Apr. 2026:🎖️ Awarded the <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606" style="text-decoration: none;">Excellence in Review 2025</a> by IEEE Journal of Oceanic Engineering
 
 - Feb. 2025: 🎖️ Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a> was awarded <a href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/featured-articles/2025-featured-article" style="text-decoration: none;">Featured Article </a> of ISPRS Journal of Photogrammetry and Remote Sensing. (**Only 12 out of 364 papers selected**.)
 
-- Oct. 2023:🎖️ Awarded the [Outstanding Master's Thesis](http://m.jyt.henan.gov.cn/2023/08-12/2795956.html) of Henan Province.
-
+- Oct. 2023:🎖️ Awarded the <a href="http://m.jyt.henan.gov.cn/2023/08-12/2795956.html" style="text-decoration: none;">Outstanding Master’s Thesis</a> of Henan Province.
+  
 # 🌍 Academic Services
 
 ## 📝 Peer Review Experience (Reviewed over 170 manuscripts for more than 20 academic journals)
