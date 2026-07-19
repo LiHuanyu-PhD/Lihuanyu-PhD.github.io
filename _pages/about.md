@@ -36,14 +36,17 @@ redirect_from:
 <div class="intro-section" id='about-me'>
   <h1>Welcome to Huanyu Li (环宇 李)'s Homepage</h1>
   <p>
-    I am currently enrolled in a doctoral program at the College of Marine Spatial Information, China University of Petroleum (East China), where my research focuses on underwater intelligent image processing and deep model compression.
-  </p>
+  I hold a Doctoral degree from the College of Marine Spatial Information, China University of Petroleum (East China), with research specialization in underwater intelligent image processing and deep model compression.  </p>
 </div>
 
 # 🚀 News
 
-- Apr. 2026, 🎉Awarded the [Excellence in Review 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606) by IEEE Journal of Oceanic Engineering!
-  
+- Jul. 2026, 🎉Our work "<a href="https://ieeexplore.ieee.org/document/11598958" style="text-decoration: none;">Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning</a>" (<strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>) has been <strong style="color:red;">published</strong>!
+
+- Jul. 2026, 🏆Our work "<a href="https://link.springer.com/article/10.1007/s11263-025-02650-w" style="text-decoration: none;">Large Foundation Model Empowered Region-aware Underwater Image Captioning</a>" (<strong><i>International Journal of Computer Vision</i></strong>) has been newly selected as <strong style="color:red;">ESI Highly Cited Papers</strong>!
+
+- Apr. 2026, 🎉Awarded the <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606" style="text-decoration: none;">Excellence in Review 2025</a> (<strong><i>IEEE Journal of Oceanic Engineering</i></strong>)!  
+
 - Jan. 2026, 🎉Our works "<a href="https://link.springer.com/article/10.1007/s11263-025-02650-w" style="text-decoration: none;">Large Foundation Model Empowered Region-aware Underwater Image Captioning</a>" (<strong><i>International Journal of Computer Vision</i></strong>) have been <strong style="color:red;">published</strong>!
   
 - Jan. 2026, 🏆Our works "<a href="https://ieeexplore.ieee.org/document/11062881" style="text-decoration: none;">Underwater Image Captioning With AquaSketch-Enhanced Cross-Scale Information Fusion</a>" (<strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>) and "<a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003422" style="text-decoration: none;">Underwater image captioning via attention mechanism based fusion of visual and textual information</a>" (<strong><i> Information Fusion</i></strong>) has been newly selected as <strong style="color:red;">ESI Highly Cited Papers</strong>!
@@ -60,7 +63,9 @@ redirect_from:
 
 # 📝 Publications
 
-- <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Peng Ren. <a href="https://link.springer.com/article/10.1007/s11263-025-02650-w" style="text-decoration: none;">Large Foundation Model Empowered Region-aware Underwater Image Captioning</a>. <strong><i>International Journal of Computer Vision</i></strong>, 2026. [<strong style="color:red;">CCF-A</strong>] 
+- <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Jingyu Liu, Peng Ren. <a href="https://ieeexplore.ieee.org/document/11598958" style="text-decoration: none;">Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning</a>. <strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>, Early Access.
+
+- <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Peng Ren. <a href="https://link.springer.com/article/10.1007/s11263-025-02650-w" style="text-decoration: none;">Large Foundation Model Empowered Region-aware Underwater Image Captioning</a>. <strong><i>International Journal of Computer Vision</i></strong>, 2026. [<strong style="color:red;">CCF-A</strong>] [<strong style="color:red;">ESI Highly Cited Paper</strong>]
 
 - <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Peng Ren. <a href="https://ieeexplore.ieee.org/document/11062881" style="text-decoration: none;">Underwater Image Captioning With AquaSketch-Enhanced Cross-Scale Information Fusion</a>. <strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>, 2025.   [<strong style="color:red;">**ESI Highly Cited Paper**</strong>] 
 
@@ -77,13 +82,11 @@ redirect_from:
 
 # 📚 Educations
 
-- 2022 - 2025, PhD in Marine Resources and Information Engineering, China University of Petroleum (East China), China. 
+- 2022 - 2026, PhD in Marine Resources and Information Engineering, China University of Petroleum (East China), China. 
 
 - 2019 - 2022, MEng in Signal and Information Processing, Zhongyuan University of Technology, China. (MS Thesis: Research on structured pruning method and hardwareacceleration of convolutional neural network)
 
 - 2015 - 2019, BEng in Automation, Zhongyuan University of Technology, China.
-
-  
 
 # 🎖 Honors and Awards
 - Apr. 2026:🎖️ Awarded the [Excellence in Review 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606) by IEEE Journal of Oceanic Engineering
@@ -94,7 +97,7 @@ redirect_from:
 
 # 🌍 Academic Services
 
-## 📝 Peer Review Experience (Reviewed over 150 manuscripts for more than 20 academic journals)
+## 📝 Peer Review Experience (Reviewed over 170 manuscripts for more than 20 academic journals)
 
 ### 🔄**Continuous Reviewer** (2023 – Present) for:
 
