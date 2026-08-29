@@ -84,8 +84,8 @@ redirect_from:
 
 - <strong><u>Huanyu Li</u></strong>, Hao Wang, Ying Zhang, Li Li, Peng Ren. <a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater Image Captioning: Challenges, Models, and Datasets</a>. <strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong>, 2025. [<strong style="color:red;">ESI Hot Paper</strong>] [<strong style="color:red;">ESI Highly Cited Paper</strong>] [<strong style="color:red;">Featured Article</strong>]
 
-- Li Li, <strong><u>Huanyu Li</u></strong>, Peng Ren. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003422" style="text-decoration: none;">Underwater Image Captioning via Attention Mechanism Based Fusion of Visual and Textual Information</a>. <strong><i>Information Fusion</i></strong>, 2025. [<strong style="color:red;">ESI Highly Cited Paper</strong>]
-
+- Li Li, <strong><u>Huanyu Li*</u></strong>, Peng Ren. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003422" style="text-decoration: none;">Underwater Image Captioning via Attention Mechanism Based Fusion of Visual and Textual Information</a>. <strong><i>Information Fusion</i></strong>, 2025. [<strong style="color:red;">ESI Highly Cited Paper</strong>]
+  
 * Hao Wang, Weibo Zhang, Yinghao Xu, <strong><u>Huanyu Li</u></strong>, Peng Ren. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525007651" style="text-decoration: none;">WaterCycleDiffusion: Visual–Textual Fusion Empowered Underwater Image Enhancement</a>. <strong><i>Information Fusion</i></strong>, 2025. [<strong style="color:red;">ESI Hot Paper</strong>] [<strong style="color:red;">ESI Highly Cited Paper</strong>]
 
 - Ying Zhang, <strong><u>Huanyu Li</u></strong>, Bingyu Li, Li Li, Weibo Zhang, Hao Wang, Peng Ren. <a href="https://link.springer.com/article/10.1007/s44295-025-00054-7" style="text-decoration: none;">An Underwater Acoustic Semantic Communication Approach to Underwater Image Transmission</a>. <strong><i>Intelligent Marine Technology and Systems</i></strong>, 2025.
