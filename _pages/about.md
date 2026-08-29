@@ -37,9 +37,13 @@ redirect_from:
 <div class="intro-section" id="about-me">
   <h1>Welcome to Huanyu Li (李环宇)'s Homepage</h1>
   <p>
-    I received my Ph.D. degree in Marine Resources and Information Engineering from China University of Petroleum (East China). 
+    I received my Ph.D. degree in Marine Resources and Information Engineering from China University of Petroleum (East China).
     My research interests focus on underwater intelligent vision, image enhancement, vision-language understanding, and efficient deep learning.
   </p>
+
+  <a href="https://scholar.google.com/citations?user=FF3eLgsAAAAJ" target="_blank">
+    <img src="https://img.shields.io/endpoint?url={{ url }}" alt="Google Scholar Citations">
+  </a>
 </div>
 
 # 🔬 Research Interests
