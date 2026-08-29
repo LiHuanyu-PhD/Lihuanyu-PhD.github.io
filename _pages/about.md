@@ -74,7 +74,7 @@ redirect_from:
 - May. 2025, 🔥 Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>" (<strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong>) has been newly selected as an <strong style="color:red;">ESI Hot Paper</strong>!
 
 
-# 📝 Publications
+# 📝 Selected Publications
 
 - <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Jingyu Liu, Peng Ren. <a href="https://ieeexplore.ieee.org/document/11598958" style="text-decoration: none;">Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning</a>. <strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>, 2026.
 
