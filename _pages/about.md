@@ -40,10 +40,6 @@ redirect_from:
     I received my Ph.D. degree in Marine Resources and Information Engineering from China University of Petroleum (East China).
     My research interests focus on underwater intelligent vision, image enhancement, vision-language understanding, and efficient deep learning.
   </p>
-
-  <a href="https://scholar.google.com/citations?user=FF3eLgsAAAAJ" target="_blank">
-    <img src="https://img.shields.io/endpoint?url={{ url }}" alt="Google Scholar Citations">
-  </a>
 </div>
 
 # 🔬 Research Interests
@@ -77,8 +73,11 @@ redirect_from:
 
 - May. 2025, 🔥 Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>" (<strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong>) has been newly selected as an <strong style="color:red;">ESI Hot Paper</strong>!
 
-
 # 📝 Selected Publications
+
+<a href="https://scholar.google.com/citations?user=FF3eLgsAAAAJ" target="_blank">
+  <img src="https://img.shields.io/endpoint?url={{ url }}" alt="Google Scholar Citations">
+</a>
 
 - <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Jingyu Liu, Peng Ren. <a href="https://ieeexplore.ieee.org/document/11598958" style="text-decoration: none;">Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning</a>. <strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>, 2026.
 
