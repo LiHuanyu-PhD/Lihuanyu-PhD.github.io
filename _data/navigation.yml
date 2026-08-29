@@ -1,19 +1,25 @@
-# main links links
+# main links
 main:
-  - title: "About Me"
-    url: "/#about-me"
+- title: "About Me"
+  url: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
+- title: "Research"
+  url: "/#-research-interests"
 
-  - title: "Publications"
-    url: "/#-publications"
+- title: "Highlights"
+  url: "/#-highlights"
 
-  - title: "Educations"
-    url: "/#-educations"
+- title: "News"
+  url: "/#-news"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+- title: "Publications"
+  url: "/#-publications"
 
-  - title: "Academic Services"
-    url: "/#-academic-services"
+- title: "Education"
+  url: "/#-education"
+
+- title: "Honors and Awards"
+  url: "/#-honors-and-awards"
+
+- title: "Academic Services"
+  url: "/#-academic-services"
