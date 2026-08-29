@@ -15,11 +15,11 @@ main:
 - title: "Publications"
   url: "/#-publications"
 
-- title: "Education"
-  url: "/#-education"
-
 - title: "Honors and Awards"
   url: "/#-honors-and-awards"
+
+- title: "Education"
+  url: "/#-education"
 
 - title: "Academic Services"
   url: "/#-academic-services"
