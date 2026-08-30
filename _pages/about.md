@@ -73,7 +73,7 @@ redirect_from:
 
 - May. 2025, 🔥 Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>" (<strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong>) has been newly selected as an <strong style="color:red;">ESI Hot Paper</strong>!
 
-## 📝 Selected Publications <a href="https://scholar.google.com/citations?user=FF3eLgsAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FLiHuanyu-PhD%2FLihuanyu-PhD.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json" alt="Google Scholar Citations" style="vertical-align: middle; margin-left: 6px;"></a>
+## 📝 Selected Publications <a href="https://scholar.google.com/citations?user=FF3eLgsAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLiHuanyu-PhD%2FLihuanyu-PhD.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json" alt="Google Scholar Citations" style="vertical-align: middle; margin-left: 6px;"></a>
 
 - <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Jingyu Liu, Peng Ren. <a href="https://ieeexplore.ieee.org/document/11598958" style="text-decoration: none;">Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning</a>. <strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>, 2026.
 
