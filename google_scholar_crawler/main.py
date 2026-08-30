@@ -1,212 +1,213 @@
 import os
-import re
 import json
-import time
-import html as html_lib
 from datetime import datetime
-from urllib.request import Request, urlopen
+from urllib.parse import urlencode
+from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
 
 
 SCHOLAR_ID = os.environ["GOOGLE_SCHOLAR_ID"]
+SERPAPI_KEY = os.environ["SERPAPI_KEY"]
 
-PROFILE_URL = (
-    "https://scholar.google.com/citations"
-    f"?user={SCHOLAR_ID}&hl=en&pagesize=100"
-)
-
-TIMEOUT = 30
-MAX_RETRIES = 3
+API_URL = "https://serpapi.com/search.json"
+TIMEOUT = 60
 
 
-def fetch_html(url):
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/131.0.0.0 Safari/537.36"
-        ),
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "close",
+def get_scholar_data():
+    print("[Scholar] Fetching data from SerpApi...", flush=True)
+
+    params = {
+        "engine": "google_scholar_author",
+        "author_id": SCHOLAR_ID,
+        "hl": "en",
+        "num": 100,
+        "api_key": SERPAPI_KEY,
     }
 
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            print(
-                f"[Scholar] Fetching profile "
-                f"({attempt}/{MAX_RETRIES})...",
-                flush=True
-            )
+    url = API_URL + "?" + urlencode(params)
 
-            request = Request(url, headers=headers)
-
-            with urlopen(request, timeout=TIMEOUT) as response:
-                page = response.read().decode(
-                    "utf-8",
-                    errors="ignore"
-                )
-
-            lower_page = page.lower()
-
-            if (
-                "unusual traffic" in lower_page
-                or "captcha" in lower_page
-                or "/sorry/" in lower_page
-                or "not a robot" in lower_page
-            ):
-                raise RuntimeError(
-                    "Google Scholar returned an anti-bot page."
-                )
-
-            print(
-                f"[Scholar] Downloaded {len(page)} bytes.",
-                flush=True
-            )
-
-            return page
-
-        except (HTTPError, URLError, TimeoutError, RuntimeError) as e:
-            print(
-                f"[Scholar] Attempt failed: {e}",
-                flush=True
-            )
-
-            if attempt < MAX_RETRIES:
-                print(
-                    "[Scholar] Retrying in 10 seconds...",
-                    flush=True
-                )
-                time.sleep(10)
-
-    raise RuntimeError(
-        "Failed to fetch Google Scholar profile."
+    request = Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0"
+        }
     )
 
+    try:
+        with urlopen(request, timeout=TIMEOUT) as response:
+            data = json.loads(
+                response.read().decode("utf-8")
+            )
 
-def clean_text(value):
-    value = re.sub(r"<[^>]+>", "", value)
-    value = html_lib.unescape(value)
-    return value.strip()
+    except HTTPError as e:
+        raise RuntimeError(
+            f"SerpApi HTTP error: {e.code}"
+        )
+
+    except URLError as e:
+        raise RuntimeError(
+            f"SerpApi connection error: {e}"
+        )
+
+    if "error" in data:
+        raise RuntimeError(
+            f"SerpApi error: {data['error']}"
+        )
+
+    status = data.get(
+        "search_metadata", {}
+    ).get("status")
+
+    if status and status != "Success":
+        raise RuntimeError(
+            f"SerpApi search status: {status}"
+        )
+
+    print(
+        "[Scholar] SerpApi request successful.",
+        flush=True
+    )
+
+    return data
 
 
-def parse_profile(page):
-    author = {
+def parse_data(data):
+
+    result = {
         "updated": datetime.now().astimezone().isoformat(),
         "publications": {}
     }
 
-    # Author name
-    name_match = re.search(
-        r'<div id="gsc_prf_in"[^>]*>(.*?)</div>',
-        page,
-        re.S
+    # =========================
+    # Author information
+    # =========================
+    author_info = data.get("author", {})
+
+    result["name"] = author_info.get(
+        "name",
+        ""
     )
 
-    if name_match:
-        author["name"] = clean_text(
-            name_match.group(1)
-        )
-
-    # Citation / h-index / i10-index
-    stats = re.findall(
-        r'<td class="gsc_rsb_std">(\d+)</td>',
-        page
+    # =========================
+    # Citation statistics
+    # =========================
+    cited_by = data.get(
+        "cited_by",
+        {}
     )
 
-    if len(stats) < 5:
-        raise RuntimeError(
-            "Could not parse Scholar citation statistics."
-        )
+    table = cited_by.get(
+        "table",
+        []
+    )
 
-    author["citedby"] = int(stats[0])
-    author["hindex"] = int(stats[2])
-    author["i10index"] = int(stats[4])
+    total_citations = 0
+    h_index = 0
+    i10_index = 0
 
+    for item in table:
+
+        if "citations" in item:
+            total_citations = (
+                item["citations"].get(
+                    "all",
+                    0
+                )
+            )
+
+        if "h_index" in item:
+            h_index = (
+                item["h_index"].get(
+                    "all",
+                    0
+                )
+            )
+
+        if "i10_index" in item:
+            i10_index = (
+                item["i10_index"].get(
+                    "all",
+                    0
+                )
+            )
+
+    result["citedby"] = total_citations
+    result["hindex"] = h_index
+    result["i10index"] = i10_index
+
+    # =========================
     # Publications
-    rows = re.findall(
-        r'<tr class="gsc_a_tr">(.*?)</tr>',
-        page,
-        re.S
+    # =========================
+    articles = data.get(
+        "articles",
+        []
     )
 
     print(
-        f"[Scholar] Found {len(rows)} publications.",
+        f"[Scholar] Found {len(articles)} publications.",
         flush=True
     )
 
-    for row in rows:
-        title_match = re.search(
-            r'<a[^>]*class="gsc_a_at"[^>]*href="([^"]+)"[^>]*>'
-            r'(.*?)</a>',
-            row,
-            re.S
+    for article in articles:
+
+        citation_id = article.get(
+            "citation_id"
         )
 
-        if not title_match:
+        if not citation_id:
             continue
 
-        href = html_lib.unescape(
-            title_match.group(1)
+        cited_by_info = article.get(
+            "cited_by",
+            {}
         )
 
-        title = clean_text(
-            title_match.group(2)
+        num_citations = cited_by_info.get(
+            "value",
+            0
         )
 
-        pub_id_match = re.search(
-            r'citation_for_view=([^&"]+)',
-            href
+        title = article.get(
+            "title",
+            ""
         )
 
-        if not pub_id_match:
-            continue
-
-        pub_id = pub_id_match.group(1)
-
-        citation_match = re.search(
-            r'<a[^>]*class="gsc_a_ac[^"]*"[^>]*>'
-            r'\s*(\d*)\s*</a>',
-            row,
-            re.S
+        authors = article.get(
+            "authors",
+            ""
         )
 
-        num_citations = 0
-
-        if citation_match and citation_match.group(1):
-            num_citations = int(
-                citation_match.group(1)
-            )
-
-        year_match = re.search(
-            r'class="gsc_a_h[^"]*"[^>]*>\s*(\d{4})\s*<',
-            row,
-            re.S
+        publication = article.get(
+            "publication",
+            ""
         )
 
-        year = (
-            int(year_match.group(1))
-            if year_match
-            else None
+        year = article.get(
+            "year"
         )
 
-        author["publications"][pub_id] = {
-            "author_pub_id": pub_id,
+        result["publications"][citation_id] = {
+            "author_pub_id": citation_id,
             "bib": {
-                "title": title
+                "title": title,
+                "author": authors,
+                "citation": publication,
             },
             "num_citations": num_citations,
             "pub_year": year,
         }
 
-    return author
+    return result
 
 
 def save_results(author):
+
     os.makedirs(
         "results",
         exist_ok=True
     )
 
+    # Main JSON
     with open(
         "results/gs_data.json",
         "w",
@@ -219,10 +220,13 @@ def save_results(author):
             indent=2
         )
 
+    # Shields.io JSON
     shieldio_data = {
         "schemaVersion": 1,
         "label": "citations",
-        "message": str(author["citedby"])
+        "message": str(
+            author["citedby"]
+        ),
     }
 
     with open(
@@ -260,22 +264,17 @@ def save_results(author):
 
 
 def main():
+
     print(
-        "[Scholar] Starting direct HTML crawler...",
+        "[Scholar] Starting SerpApi crawler...",
         flush=True
     )
 
-    page = fetch_html(
-        PROFILE_URL
-    )
+    data = get_scholar_data()
 
-    author = parse_profile(
-        page
-    )
+    author = parse_data(data)
 
-    save_results(
-        author
-    )
+    save_results(author)
 
     print(
         "[Scholar] Finished successfully.",
