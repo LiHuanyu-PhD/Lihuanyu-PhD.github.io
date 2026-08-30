@@ -27,21 +27,23 @@ jobs:
           pip install -r google_scholar_crawler/requirements.txt
 
       - name: Get Google Scholar citation data
+        timeout-minutes: 5
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
           cd google_scholar_crawler
-          python main.py
+          python -u main.py
 
       - name: Push citation data
         run: |
           cd google_scholar_crawler/results
+
           git init
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add *.json
-          git commit -m "Updated Citation Data"
+          git commit -m "Updated Citation Data" || echo "No citation changes"
 
           git branch -M google-scholar-stats
           git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
