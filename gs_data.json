@@ -1,0 +1,209 @@
+{
+  "updated": "2026-09-05T11:46:08.755018+00:00",
+  "publications": {
+    "FF3eLgsAAAAJ:KlAtU1dfN6UC": {
+      "author_pub_id": "FF3eLgsAAAAJ:KlAtU1dfN6UC",
+      "bib": {
+        "title": "WaterCycleDiffusion: Visual-textual fusion empowered underwater image enhancement",
+        "author": "H Wang, W Zhang, Y Xu, H Li, P Ren",
+        "citation": "Information Fusion, 103693, 2025"
+      },
+      "num_citations": 140,
+      "pub_year": "2025"
+    },
+    "FF3eLgsAAAAJ:LkGwnXOMwfcC": {
+      "author_pub_id": "FF3eLgsAAAAJ:LkGwnXOMwfcC",
+      "bib": {
+        "title": "INSPIRATION: A reinforcement learning-based human visual perception-driven image enhancement paradigm for underwater scenes",
+        "author": "H Wang, S Sun, L Chang, H Li, W Zhang, AC Frery, P Ren",
+        "citation": "Engineering Applications of Artificial Intelligence 133, 108411, 2024"
+      },
+      "num_citations": 112,
+      "pub_year": "2024"
+    },
+    "FF3eLgsAAAAJ:roLk4NBRz8UC": {
+      "author_pub_id": "FF3eLgsAAAAJ:roLk4NBRz8UC",
+      "bib": {
+        "title": "Underwater image captioning: Challenges, models, and datasets",
+        "author": "H Li, H Wang, Y Zhang, L Li, P Ren",
+        "citation": "ISPRS Journal of Photogrammetry and Remote Sensing 220, 440-453, 2025"
+      },
+      "num_citations": 71,
+      "pub_year": "2025"
+    },
+    "FF3eLgsAAAAJ:8k81kl-MbHgC": {
+      "author_pub_id": "FF3eLgsAAAAJ:8k81kl-MbHgC",
+      "bib": {
+        "title": "Underwater image captioning with AquaSketch-enhanced cross-scale information fusion",
+        "author": "H Li, L Li, H Wang, W Zhang, P Ren",
+        "citation": "IEEE Transactions on Geoscience and Remote Sensing 63, 1-18, 2025"
+      },
+      "num_citations": 60,
+      "pub_year": "2025"
+    },
+    "FF3eLgsAAAAJ:0EnyYjriUFMC": {
+      "author_pub_id": "FF3eLgsAAAAJ:0EnyYjriUFMC",
+      "bib": {
+        "title": "Underwater image captioning via attention mechanism based fusion of visual and textual information",
+        "author": "L Li, H Li, P Ren",
+        "citation": "Information Fusion, 2025"
+      },
+      "num_citations": 44,
+      "pub_year": "2025"
+    },
+    "FF3eLgsAAAAJ:WF5omc3nYNoC": {
+      "author_pub_id": "FF3eLgsAAAAJ:WF5omc3nYNoC",
+      "bib": {
+        "title": "A real-time and high-performance MobileNet accelerator based on adaptive dataflow scheduling for image classification",
+        "author": "X Sang, T Ruan, C Li, H Li, R Yang, Z Liu",
+        "citation": "Journal of Real-Time Image Processing 21 (1), 4, 2024"
+      },
+      "num_citations": 33,
+      "pub_year": "2024"
+    },
+    "FF3eLgsAAAAJ:ULOm3_A8WrAC": {
+      "author_pub_id": "FF3eLgsAAAAJ:ULOm3_A8WrAC",
+      "bib": {
+        "title": "Large Foundation Model Empowered Region-aware Underwater Image Captioning",
+        "author": "H Li, L Li, H Wang, W Zhang, P Ren",
+        "citation": "International Journal of Computer Vision 134 (2), 66, 2026"
+      },
+      "num_citations": 32,
+      "pub_year": "2026"
+    },
+    "FF3eLgsAAAAJ:YsMSGLbcyi4C": {
+      "author_pub_id": "FF3eLgsAAAAJ:YsMSGLbcyi4C",
+      "bib": {
+        "title": "SeedSortNet: a rapid and highly effificient lightweight CNN based on visual attention for seed sorting",
+        "author": "C Li, H Li, Z Liu, B Li, Y Huang",
+        "citation": "PeerJ Computer Science 7, e639, 2021"
+      },
+      "num_citations": 28,
+      "pub_year": "2021"
+    },
+    "FF3eLgsAAAAJ:Y0pCki6q_DkC": {
+      "author_pub_id": "FF3eLgsAAAAJ:Y0pCki6q_DkC",
+      "bib": {
+        "title": "An accelerating convolutional neural networks via a 2D entropy based-adaptive filter search method for image recognition",
+        "author": "C Li, H Li, G Gao, Z Liu, P Liu",
+        "citation": "Applied Soft Computing 142, 110326, 2023"
+      },
+      "num_citations": 22,
+      "pub_year": "2023"
+    },
+    "FF3eLgsAAAAJ:Se3iqnhoufwC": {
+      "author_pub_id": "FF3eLgsAAAAJ:Se3iqnhoufwC",
+      "bib": {
+        "title": "An underwater acoustic semantic communication approach to underwater image transmission: Y. Zhang et al.",
+        "author": "Y Zhang, H Li, B Li, L Li, W Zhang, H Wang, P Ren",
+        "citation": "Intelligent Marine Technology and Systems 3 (1), 5, 2025"
+      },
+      "num_citations": 11,
+      "pub_year": "2025"
+    },
+    "FF3eLgsAAAAJ:Tyk-4Ss8FVUC": {
+      "author_pub_id": "FF3eLgsAAAAJ:Tyk-4Ss8FVUC",
+      "bib": {
+        "title": "Real‐time seed sorting system via 2D information entropy‐based CNN pruning and TensorRt acceleration",
+        "author": "C Li, H Li, L Liao, Z Liu, Y Dong",
+        "citation": "IET Image Processing 17 (6), 1694-1708, 2023"
+      },
+      "num_citations": 11,
+      "pub_year": "2023"
+    },
+    "FF3eLgsAAAAJ:_FxGoFyzp5QC": {
+      "author_pub_id": "FF3eLgsAAAAJ:_FxGoFyzp5QC",
+      "bib": {
+        "title": "A block‐based and highly parallel CNN accelerator for seed sorting",
+        "author": "X Sang, Z Hu, H Li, C Li, Z Liu",
+        "citation": "Journal of Electrical and Computer Engineering 2022 (1), 5608573, 2022"
+      },
+      "num_citations": 4,
+      "pub_year": "2022"
+    },
+    "FF3eLgsAAAAJ:MXK_kJrjxJIC": {
+      "author_pub_id": "FF3eLgsAAAAJ:MXK_kJrjxJIC",
+      "bib": {
+        "title": "Pke-uic: A prior knowledge-enhanced underwater image captioning model",
+        "author": "H Li, W Zhang, Z Li, P Ren",
+        "citation": "Proceedings of the 2024 7th international conference on sensors, signal and …, 2024"
+      },
+      "num_citations": 3,
+      "pub_year": "2024"
+    },
+    "FF3eLgsAAAAJ:eQOLeE2rZwMC": {
+      "author_pub_id": "FF3eLgsAAAAJ:eQOLeE2rZwMC",
+      "bib": {
+        "title": "Rapid and high-purity seed grading based on pruned deep convolutional neural network",
+        "author": "H Li, C Zhang, C Li, Z Liu, Y Dong, S Tang",
+        "citation": "Asian Conference on Pattern Recognition, 101-115, 2021"
+      },
+      "num_citations": 3,
+      "pub_year": "2021"
+    },
+    "FF3eLgsAAAAJ:YOwf2qJgpHMC": {
+      "author_pub_id": "FF3eLgsAAAAJ:YOwf2qJgpHMC",
+      "bib": {
+        "title": "Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning",
+        "author": "H Li, L Li, H Wang, W Zhang, J Liu, P Ren",
+        "citation": "IEEE Transactions on Geoscience and Remote Sensing, 2026"
+      },
+      "num_citations": 1,
+      "pub_year": "2026"
+    },
+    "FF3eLgsAAAAJ:ufrVoPGSRksC": {
+      "author_pub_id": "FF3eLgsAAAAJ:ufrVoPGSRksC",
+      "bib": {
+        "title": "Research on depth model compression method based on joint pruning for seed sorting",
+        "author": "Y Dong, H LI, W LI, C LI, Z LIU",
+        "citation": "Journal of Henan Agricultural Sciences 51 (1), 162, 2022"
+      },
+      "num_citations": 1,
+      "pub_year": "2022"
+    },
+    "FF3eLgsAAAAJ:W7OEmFMy1HYC": {
+      "author_pub_id": "FF3eLgsAAAAJ:W7OEmFMy1HYC",
+      "bib": {
+        "title": "AMDet: An efficient infrared small object detection model based on visual attention and multi-dilation feature",
+        "author": "C Zhang, Y Dong, H Li, C Li, Z Liu",
+        "citation": "Proceedings of the 2021 10th International Conference on Computing and …, 2021"
+      },
+      "num_citations": 1,
+      "pub_year": "2021"
+    },
+    "FF3eLgsAAAAJ:_kc_bZDykSQC": {
+      "author_pub_id": "FF3eLgsAAAAJ:_kc_bZDykSQC",
+      "bib": {
+        "title": "聚类和群智能优化算法的自动剪枝方法.",
+        "author": "刘洲峰， 吴文涛， 李环宇， 邵昕楠， 李春雷",
+        "citation": "Journal of Computer Engineering & Applications 61 (11), 204, 2025"
+      },
+      "num_citations": null,
+      "pub_year": "2025"
+    },
+    "FF3eLgsAAAAJ:3fE2CSJIrl8C": {
+      "author_pub_id": "FF3eLgsAAAAJ:3fE2CSJIrl8C",
+      "bib": {
+        "title": "CST: Underwater Image Color Correction via Color Space Transformation",
+        "author": "W Zhang, H Li, P Ren",
+        "citation": "Proceedings of the 2024 7th International Conference on Sensors, Signal and …, 2024"
+      },
+      "num_citations": null,
+      "pub_year": "2024"
+    },
+    "FF3eLgsAAAAJ:4TOpqqG69KYC": {
+      "author_pub_id": "FF3eLgsAAAAJ:4TOpqqG69KYC",
+      "bib": {
+        "title": "基于轻量级金字塔网络的种子分选方法研究.",
+        "author": "李卫杰， 桑肖婷， 李环宇， 魏平俊， 李骁",
+        "citation": "Computer Measurement & Control 32 (3), 239, 2024"
+      },
+      "num_citations": null,
+      "pub_year": "2024"
+    }
+  },
+  "name": "Huanyu Li (环宇 李)",
+  "citedby": 577,
+  "hindex": 11,
+  "i10index": 11
+}
