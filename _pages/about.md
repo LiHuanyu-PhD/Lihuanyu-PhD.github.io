@@ -93,6 +93,12 @@ redirect_from:
 
 - Chunlei Li, <strong><u>Huanyu Li</u></strong>, Guangshuai Gao, Zhoufeng Liu, Pengcheng Liu. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494623003447" style="text-decoration: none;">An Accelerating Convolutional Neural Networks via a 2D Entropy Based-Adaptive Filter Search Method for Image Recognition</a>. <strong><i>Applied Soft Computing</i></strong>, 2023.
 
+-  Xin Yuan, <strong><u>Huanyu Li</u></strong>, Junpu Wang, Miao Yu, Chunlei Li. <a href="https://doi.org/10.1109/ICIP61757.2026.11630505" style="text-decoration: none;">DASR-Net: Unsupervised Fine-Grained Anomaly Segmentation Via Distribution Alignment and Selective Feature Reconstruction</a>. <strong><i>2026 IEEE International Conference on Image Processing (ICIP)</i></strong>, 2026.
+
+- Rui Xu, Junpu Wang, <strong><u>Huanyu Li</u></strong>, Zhenduo Guo, Chunlei Li. <a href="https://doi.org/10.1109/ICIP61757.2026.11630430" style="text-decoration: none;">SGCLIP: Semantic-Geometric Fusion for Training-Free Open-Vocabulary Segmentation</a>. <strong><i>2026 IEEE International Conference on Image Processing (ICIP)</i></strong>, 2026.
+
+- Xiangshuai Zhao, Junpu Wang, <strong><u>Huanyu Li</u></strong>, Miao Yu, Chunlei Li. <a href="https://doi.org/10.1109/ICIP61757.2026.11630236" style="text-decoration: none;">CoBi-CLIP: Enhancing CLIP with Convolutional Adapters and Bidirectional Alignment for Zero-shot Anomaly Detection</a>. <strong><i>2026 IEEE International Conference on Image Processing (ICIP)</i></strong>, 2026.
+  
 
 # 🎖 Honors and Awards
 
@@ -119,7 +125,7 @@ redirect_from:
 
 ## 📝 Peer Review Experience
 
-Reviewed **170+ manuscripts** for more than **20 academic journals and conferences**.
+Reviewed **200+ manuscripts** for more than **20 academic journals and conferences**.
 
 ### Reviewer for:
 
