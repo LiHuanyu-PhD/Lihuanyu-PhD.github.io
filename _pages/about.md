@@ -61,6 +61,8 @@ redirect_from:
 
 # 🚀 News
 
+- Sep. 2026, 🎉 Our collaborative work has been <strong style="color:red;">published</strong> in the <strong><i>2026 IEEE International Conference on Image Processing (ICIP)</i></strong> (CCF-C)!
+
 - Aug. 2026, 🎖️ Awarded the **Top Reviewer 2026** by *IEEE Transactions on Geoscience and Remote Sensing*.
 
 - Jul. 2026, 🎉 Our work "<a href="https://ieeexplore.ieee.org/document/11598958" style="text-decoration: none;">Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning</a>" (<strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>) has been <strong style="color:red;">published</strong>!
