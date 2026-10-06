@@ -125,7 +125,7 @@ redirect_from:
 
 ## 📝 Peer Review Experience
 
-Reviewed **200+ manuscripts** for more than **20 academic journals and conferences**.
+Reviewed **200+ manuscripts** for more than **30 academic journals and conferences**.
 
 ### Reviewer for:
 
