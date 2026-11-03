@@ -123,6 +123,10 @@ redirect_from:
 
 # 🌍 Academic Services
 
+## 📝 Editorial Service
+
+- **Lead Guest Editor**, Special Issue *[Advances in Underwater Image Processing and Analysis](https://www.mdpi.com/journal/jimaging/special_issues/LUG5F450XG)*, *[Journal of Imaging](https://www.mdpi.com/journal/jimaging)*, 2026–present.
+
 ## 📝 Peer Review Experience
 
 Reviewed **200+ manuscripts** for more than **30 academic journals and conferences**.
