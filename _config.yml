@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Huanyu Li"
-description : ""
+description : "Huanyu Li — underwater intelligent vision, image enhancement, vision-language understanding, and efficient deep learning."
 repository               : "LiHuanyu-PhD/Lihuanyu-PhD.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "LiHuanyu-PhD"
   google_plus      :
   keybase          :
   instagram        :
