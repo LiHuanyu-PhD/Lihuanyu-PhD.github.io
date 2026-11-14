@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning",
+    "url": "https://ieeexplore.ieee.org/document/11598958",
+    "authors": "<strong>Huanyu Li</strong>, Li Li, Hao Wang, Weibo Zhang, Jingyu Liu, Peng Ren",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "year": 2026,
+    "role": "lead",
+    "badges": []
+  },
+  {
+    "title": "Large Foundation Model Empowered Region-aware Underwater Image Captioning",
+    "url": "https://link.springer.com/article/10.1007/s11263-025-02650-w",
+    "authors": "<strong>Huanyu Li</strong>, Li Li, Hao Wang, Weibo Zhang, Peng Ren",
+    "venue": "International Journal of Computer Vision",
+    "year": 2026,
+    "role": "lead",
+    "badges": [
+      "CCF-A",
+      "ESI Highly Cited Paper"
+    ]
+  },
+  {
+    "title": "Underwater Image Captioning With AquaSketch-Enhanced Cross-Scale Information Fusion",
+    "url": "https://ieeexplore.ieee.org/document/11062881",
+    "authors": "<strong>Huanyu Li</strong>, Li Li, Hao Wang, Weibo Zhang, Peng Ren",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "year": 2025,
+    "role": "lead",
+    "badges": [
+      "ESI Highly Cited Paper"
+    ]
+  },
+  {
+    "title": "Underwater Image Captioning: Challenges, Models, and Datasets",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0924271624004726",
+    "authors": "<strong>Huanyu Li</strong>, Hao Wang, Ying Zhang, Li Li, Peng Ren",
+    "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+    "year": 2025,
+    "role": "lead",
+    "badges": [
+      "ESI Hot Paper",
+      "ESI Highly Cited Paper",
+      "Featured Article"
+    ]
+  },
+  {
+    "title": "Underwater Image Captioning via Attention Mechanism Based Fusion of Visual and Textual Information",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1566253525003422",
+    "authors": "Li Li, <strong>Huanyu Li*</strong>, Peng Ren",
+    "venue": "Information Fusion",
+    "year": 2025,
+    "role": "lead",
+    "badges": [
+      "ESI Highly Cited Paper"
+    ]
+  },
+  {
+    "title": "WaterCycleDiffusion: Visual–Textual Fusion Empowered Underwater Image Enhancement",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1566253525007651",
+    "authors": "Hao Wang, Weibo Zhang, Yinghao Xu, <strong>Huanyu Li</strong>, Peng Ren",
+    "venue": "Information Fusion",
+    "year": 2025,
+    "role": "collaborative",
+    "badges": [
+      "ESI Hot Paper",
+      "ESI Highly Cited Paper"
+    ]
+  },
+  {
+    "title": "An Underwater Acoustic Semantic Communication Approach to Underwater Image Transmission",
+    "url": "https://link.springer.com/article/10.1007/s44295-025-00054-7",
+    "authors": "Ying Zhang, <strong>Huanyu Li</strong>, Bingyu Li, Li Li, Weibo Zhang, Hao Wang, Peng Ren",
+    "venue": "Intelligent Marine Technology and Systems",
+    "year": 2025,
+    "role": "collaborative",
+    "badges": []
+  },
+  {
+    "title": "An Accelerating Convolutional Neural Networks via a 2D Entropy Based-Adaptive Filter Search Method for Image Recognition",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1568494623003447",
+    "authors": "Chunlei Li, <strong>Huanyu Li</strong>, Guangshuai Gao, Zhoufeng Liu, Pengcheng Liu",
+    "venue": "Applied Soft Computing",
+    "year": 2023,
+    "role": "collaborative",
+    "badges": []
+  },
+  {
+    "title": "DASR-Net: Unsupervised Fine-Grained Anomaly Segmentation Via Distribution Alignment and Selective Feature Reconstruction",
+    "url": "https://doi.org/10.1109/ICIP61757.2026.11630505",
+    "authors": "Xin Yuan, <strong>Huanyu Li</strong>, Junpu Wang, Miao Yu, Chunlei Li",
+    "venue": "2026 IEEE International Conference on Image Processing (ICIP)",
+    "year": 2026,
+    "role": "collaborative",
+    "badges": []
+  },
+  {
+    "title": "SGCLIP: Semantic-Geometric Fusion for Training-Free Open-Vocabulary Segmentation",
+    "url": "https://doi.org/10.1109/ICIP61757.2026.11630430",
+    "authors": "Rui Xu, Junpu Wang, <strong>Huanyu Li</strong>, Zhenduo Guo, Chunlei Li",
+    "venue": "2026 IEEE International Conference on Image Processing (ICIP)",
+    "year": 2026,
+    "role": "collaborative",
+    "badges": []
+  },
+  {
+    "title": "CoBi-CLIP: Enhancing CLIP with Convolutional Adapters and Bidirectional Alignment for Zero-shot Anomaly Detection",
+    "url": "https://doi.org/10.1109/ICIP61757.2026.11630236",
+    "authors": "Xiangshuai Zhao, Junpu Wang, <strong>Huanyu Li</strong>, Miao Yu, Chunlei Li",
+    "venue": "2026 IEEE International Conference on Image Processing (ICIP)",
+    "year": 2026,
+    "role": "collaborative",
+    "badges": []
+  }
+]
