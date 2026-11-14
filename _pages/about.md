@@ -1,117 +1,93 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
+excerpt: "Huanyu Li — underwater intelligent vision, image enhancement, vision-language understanding, and efficient deep learning."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<section class="intro-section" id="about-me" aria-labelledby="intro-title">
+  <p class="eyebrow">UNDERWATER VISION · VISION & LANGUAGE</p>
+  <h1 id="intro-title">Huanyu Li <span lang="zh">李环宇</span></h1>
+  <p class="intro-lead">Understanding the underwater world through vision and language.</p>
+  <p>I received my Ph.D. degree in Marine Resources and Information Engineering from China University of Petroleum (East China). My research interests focus on underwater intelligent vision, image enhancement, vision-language understanding, and efficient deep learning.</p>
+  <div class="intro-actions">
+    <a class="primary-link" href="#publications">Explore publications <span aria-hidden="true">↗</span></a>
+    <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+    <a href="mailto:{{ site.author.email }}">Get in touch <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
 
-<style>
-  .intro-section h1 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 0.5em;
-  }
+<section id="research" aria-labelledby="research-title">
+  <h2 id="research-title"><span class="section-number" aria-hidden="true">01</span> Research Interests</h2>
+  <ul class="research-grid">
+    <li><span aria-hidden="true">01 /</span><h3>Underwater Intelligent Vision</h3></li>
+    <li><span aria-hidden="true">02 /</span><h3>Image Enhancement and Restoration</h3></li>
+    <li><span aria-hidden="true">03 /</span><h3>Vision-Language Understanding</h3></li>
+    <li><span aria-hidden="true">04 /</span><h3>Efficient Deep Learning and Model Compression</h3></li>
+  </ul>
+</section>
 
-  .intro-section p {
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: justify;
-  }
+<section id="highlights" aria-labelledby="highlights-title">
+  <h2 id="highlights-title"><span class="section-number" aria-hidden="true">02</span> Highlights</h2>
+  <ul class="highlight-list">
+    <li><strong>Top Reviewer 2026</strong><span>IEEE TGRS</span></li>
+    <li><strong>Excellence in Review 2025</strong><span>IEEE JOE</span></li>
+    <li><strong>ESI Hot Paper</strong><span>Multiple ESI Highly Cited Papers</span></li>
+    <li><strong>Featured Article</strong><span>ISPRS JPRS</span></li>
+  </ul>
+</section>
 
-  li {
-    text-align: justify;
-    line-height: 1.7;
-  }
-</style>
+<section id="news" aria-labelledby="news-title">
+  <h2 id="news-title"><span class="section-number" aria-hidden="true">03</span> News</h2>
+<ul class="news-list"><li><span class="news-date">Sep. 2026</span><div><strong>3 collaborative papers</strong> have been <strong>published</strong> in the <strong><i>2026 IEEE International Conference on Image Processing (ICIP)</i></strong> (CCF-C)!</div></li><li><span class="news-date">Aug. 2026</span><div>Awarded the <strong>Top Reviewer 2026</strong> by <em>IEEE Transactions on Geoscience and Remote Sensing</em>.</div></li><li><span class="news-date">Jul. 2026</span><div>Our work "<a href="https://ieeexplore.ieee.org/document/11598958">Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning</a>" (<strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>) has been <strong>published</strong>!</div></li></ul>
+<details class="news-archive"><summary>Earlier news</summary><ul class="news-list"><li><span class="news-date">Jul. 2026</span><div>Our work "<a href="https://link.springer.com/article/10.1007/s11263-025-02650-w">Large Foundation Model Empowered Region-aware Underwater Image Captioning</a>" (<strong><i>International Journal of Computer Vision</i></strong>) has been newly selected as an <strong>ESI Highly Cited Paper</strong>!</div></li><li><span class="news-date">Apr. 2026</span><div>Awarded the <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606">Excellence in Review 2025</a> by <strong><i>IEEE Journal of Oceanic Engineering</i></strong>.</div></li><li><span class="news-date">Jan. 2026</span><div>Our works "<a href="https://ieeexplore.ieee.org/document/11062881">Underwater Image Captioning With AquaSketch-Enhanced Cross-Scale Information Fusion</a>" (<strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>) and "<a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003422">Underwater image captioning via attention mechanism based fusion of visual and textual information</a>" (<strong><i>Information Fusion</i></strong>) have been newly selected as <strong>ESI Highly Cited Papers</strong>!</div></li><li><span class="news-date">May. 2025</span><div>Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726">Underwater image captioning: Challenges, models, and datasets</a>" (<strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong>) has been newly selected as an <strong>ESI Hot Paper</strong>!</div></li></ul></details>
+</section>
 
-<div class="intro-section" id="about-me">
-  <h1>Welcome to Huanyu Li (李环宇)'s Homepage</h1>
-  <p>
-    I received my Ph.D. degree in Marine Resources and Information Engineering from China University of Petroleum (East China).
-    My research interests focus on underwater intelligent vision, image enhancement, vision-language understanding, and efficient deep learning.
-  </p>
-</div>
+<section id="publications" aria-labelledby="publications-title">
+  <div class="section-heading">
+    <h2 id="publications-title"><span class="section-number" aria-hidden="true">04</span> Selected Publications</h2>
+    <a class="scholar-link" href="{{ site.author.googlescholar }}">All publications ↗</a>
+  </div>
+  <p class="section-note">* Corresponding author. My name is highlighted in bold.</p>
+  <a class="citation-badge" href="{{ site.author.googlescholar }}"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLiHuanyu-PhD%2FLihuanyu-PhD.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json" alt="Google Scholar citations" loading="lazy"></a>
+  <div class="publication-filters" role="group" aria-label="Filter publications" hidden>
+    <button type="button" data-filter="all" aria-pressed="true">All papers</button>
+    <button type="button" data-filter="lead" aria-pressed="false">First / corresponding author</button>
+    <button type="button" data-filter="collaborative" aria-pressed="false">Collaborative works</button>
+  </div>
+  <p class="publication-count" aria-live="polite" hidden></p>
+  <ol class="publication-list">
+    {% for paper in site.data.publications %}
+    <li class="publication" data-role="{{ paper.role }}">
+      <div class="publication-year">{{ paper.year }}</div>
+      <div class="publication-body">
+        <h3><a href="{{ paper.url }}">{{ paper.title }} <span class="paper-arrow" aria-hidden="true">↗</span></a></h3>
+        <p class="publication-authors">{{ paper.authors }}</p>
+        <p class="publication-venue">{{ paper.venue }}</p>
+        {% if paper.badges.size > 0 %}<div class="paper-badges">{% for badge in paper.badges %}<span>{{ badge }}</span>{% endfor %}</div>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
 
-# 🔬 Research Interests
+## Honors and Awards
+{: #honors}
 
-- Underwater Intelligent Vision
-- Image Enhancement and Restoration
-- Vision-Language Understanding
-- Efficient Deep Learning and Model Compression
+- Aug. 2026:  Awarded the **Top Reviewer 2026** by *IEEE Transactions on Geoscience and Remote Sensing*.
 
+- Apr. 2026:  Awarded the <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606">Excellence in Review 2025</a> by *IEEE Journal of Oceanic Engineering*.
 
-# ⭐ Highlights
+- Feb. 2025:  Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726">Underwater image captioning: Challenges, models, and datasets</a> was selected as a <a href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/featured-articles/2025-featured-article">Featured Article</a> of *ISPRS Journal of Photogrammetry and Remote Sensing*. (**Only 12 out of 364 papers selected.**)
 
-- 🎖️ **Top Reviewer 2026**, *IEEE Transactions on Geoscience and Remote Sensing*
-- 🎖️ **Excellence in Review 2025**, *IEEE Journal of Oceanic Engineering*
-- 🔥 **ESI Hot Paper**
-- 🏆 **Multiple ESI Highly Cited Papers**
-- 🏅 **ISPRS JPRS Featured Article**
-
-
-# 🚀 News
-
-- Sep. 2026, 🎉 <strong>3 collaborative papers</strong> have been <strong style="color:red;">published</strong> in the <strong><i>2026 IEEE International Conference on Image Processing (ICIP)</i></strong> (CCF-C)!
-  
-- Aug. 2026, 🎖️ Awarded the **Top Reviewer 2026** by *IEEE Transactions on Geoscience and Remote Sensing*.
-
-- Jul. 2026, 🎉 Our work "<a href="https://ieeexplore.ieee.org/document/11598958" style="text-decoration: none;">Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning</a>" (<strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>) has been <strong style="color:red;">published</strong>!
-
-- Jul. 2026, 🏆 Our work "<a href="https://link.springer.com/article/10.1007/s11263-025-02650-w" style="text-decoration: none;">Large Foundation Model Empowered Region-aware Underwater Image Captioning</a>" (<strong><i>International Journal of Computer Vision</i></strong>) has been newly selected as an <strong style="color:red;">ESI Highly Cited Paper</strong>!
-
-- Apr. 2026, 🎖️ Awarded the <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606" style="text-decoration: none;">Excellence in Review 2025</a> by <strong><i>IEEE Journal of Oceanic Engineering</i></strong>.
-
-- Jan. 2026, 🏆 Our works "<a href="https://ieeexplore.ieee.org/document/11062881" style="text-decoration: none;">Underwater Image Captioning With AquaSketch-Enhanced Cross-Scale Information Fusion</a>" (<strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>) and "<a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003422" style="text-decoration: none;">Underwater image captioning via attention mechanism based fusion of visual and textual information</a>" (<strong><i>Information Fusion</i></strong>) have been newly selected as <strong style="color:red;">ESI Highly Cited Papers</strong>!
-
-- May. 2025, 🔥 Our work "<a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a>" (<strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong>) has been newly selected as an <strong style="color:red;">ESI Hot Paper</strong>!
-
-## 📝 Selected Publications <a href="https://scholar.google.com/citations?user=FF3eLgsAAAAJ" target="_blank"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLiHuanyu-PhD%2FLihuanyu-PhD.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json" alt="Google Scholar Citations" style="vertical-align: middle; margin-left: 6px;"></a>
-
-- <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Jingyu Liu, Peng Ren. <a href="https://ieeexplore.ieee.org/document/11598958" style="text-decoration: none;">Joint Underwater Image Enhancement and Captioning through Multi-Supervised Chained Task Learning</a>. <strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>, 2026.
-
-- <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Peng Ren. <a href="https://link.springer.com/article/10.1007/s11263-025-02650-w" style="text-decoration: none;">Large Foundation Model Empowered Region-aware Underwater Image Captioning</a>. <strong><i>International Journal of Computer Vision</i></strong>, 2026. [<strong style="color:red;">CCF-A</strong>] [<strong style="color:red;">ESI Highly Cited Paper</strong>]
-
-- <strong><u>Huanyu Li</u></strong>, Li Li, Hao Wang, Weibo Zhang, Peng Ren. <a href="https://ieeexplore.ieee.org/document/11062881" style="text-decoration: none;">Underwater Image Captioning With AquaSketch-Enhanced Cross-Scale Information Fusion</a>. <strong><i>IEEE Transactions on Geoscience and Remote Sensing</i></strong>, 2025. [<strong style="color:red;">ESI Highly Cited Paper</strong>]
-
-- <strong><u>Huanyu Li</u></strong>, Hao Wang, Ying Zhang, Li Li, Peng Ren. <a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater Image Captioning: Challenges, Models, and Datasets</a>. <strong><i>ISPRS Journal of Photogrammetry and Remote Sensing</i></strong>, 2025. [<strong style="color:red;">ESI Hot Paper</strong>] [<strong style="color:red;">ESI Highly Cited Paper</strong>] [<strong style="color:red;">Featured Article</strong>]
-
-- Li Li, <strong><u>Huanyu Li*</u></strong>, Peng Ren. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525003422" style="text-decoration: none;">Underwater Image Captioning via Attention Mechanism Based Fusion of Visual and Textual Information</a>. <strong><i>Information Fusion</i></strong>, 2025. [<strong style="color:red;">ESI Highly Cited Paper</strong>]
-  
-* Hao Wang, Weibo Zhang, Yinghao Xu, <strong><u>Huanyu Li</u></strong>, Peng Ren. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253525007651" style="text-decoration: none;">WaterCycleDiffusion: Visual–Textual Fusion Empowered Underwater Image Enhancement</a>. <strong><i>Information Fusion</i></strong>, 2025. [<strong style="color:red;">ESI Hot Paper</strong>] [<strong style="color:red;">ESI Highly Cited Paper</strong>]
-
-- Ying Zhang, <strong><u>Huanyu Li</u></strong>, Bingyu Li, Li Li, Weibo Zhang, Hao Wang, Peng Ren. <a href="https://link.springer.com/article/10.1007/s44295-025-00054-7" style="text-decoration: none;">An Underwater Acoustic Semantic Communication Approach to Underwater Image Transmission</a>. <strong><i>Intelligent Marine Technology and Systems</i></strong>, 2025.
-
-- Chunlei Li, <strong><u>Huanyu Li</u></strong>, Guangshuai Gao, Zhoufeng Liu, Pengcheng Liu. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494623003447" style="text-decoration: none;">An Accelerating Convolutional Neural Networks via a 2D Entropy Based-Adaptive Filter Search Method for Image Recognition</a>. <strong><i>Applied Soft Computing</i></strong>, 2023.
-
--  Xin Yuan, <strong><u>Huanyu Li</u></strong>, Junpu Wang, Miao Yu, Chunlei Li. <a href="https://doi.org/10.1109/ICIP61757.2026.11630505" style="text-decoration: none;">DASR-Net: Unsupervised Fine-Grained Anomaly Segmentation Via Distribution Alignment and Selective Feature Reconstruction</a>. <strong><i>2026 IEEE International Conference on Image Processing (ICIP)</i></strong>, 2026.
-
-- Rui Xu, Junpu Wang, <strong><u>Huanyu Li</u></strong>, Zhenduo Guo, Chunlei Li. <a href="https://doi.org/10.1109/ICIP61757.2026.11630430" style="text-decoration: none;">SGCLIP: Semantic-Geometric Fusion for Training-Free Open-Vocabulary Segmentation</a>. <strong><i>2026 IEEE International Conference on Image Processing (ICIP)</i></strong>, 2026.
-
-- Xiangshuai Zhao, Junpu Wang, <strong><u>Huanyu Li</u></strong>, Miao Yu, Chunlei Li. <a href="https://doi.org/10.1109/ICIP61757.2026.11630236" style="text-decoration: none;">CoBi-CLIP: Enhancing CLIP with Convolutional Adapters and Bidirectional Alignment for Zero-shot Anomaly Detection</a>. <strong><i>2026 IEEE International Conference on Image Processing (ICIP)</i></strong>, 2026.
-  
-
-# 🎖 Honors and Awards
-
-- Aug. 2026: 🎖️ Awarded the **Top Reviewer 2026** by *IEEE Transactions on Geoscience and Remote Sensing*.
-
-- Apr. 2026: 🎖️ Awarded the <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11493606" style="text-decoration: none;">Excellence in Review 2025</a> by *IEEE Journal of Oceanic Engineering*.
-
-- Feb. 2025: 🎖️ Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0924271624004726" style="text-decoration: none;">Underwater image captioning: Challenges, models, and datasets</a> was selected as a <a href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing/about/featured-articles/2025-featured-article" style="text-decoration: none;">Featured Article</a> of *ISPRS Journal of Photogrammetry and Remote Sensing*. (**Only 12 out of 364 papers selected.**)
-
-- Oct. 2023: 🎖️ Awarded the <a href="http://m.jyt.henan.gov.cn/2023/08-12/2795956.html" style="text-decoration: none;">Outstanding Master's Thesis</a> of Henan Province.
+- Oct. 2023:  Awarded the <a href="http://m.jyt.henan.gov.cn/2023/08-12/2795956.html">Outstanding Master's Thesis</a> of Henan Province.
 
 
-# 🎓 Education
+## Education
+{: #education}
 
 - **2022 – 2026**, Ph.D. in Marine Resources and Information Engineering, China University of Petroleum (East China), China.
 
@@ -121,40 +97,19 @@ redirect_from:
 - **2015 – 2019**, B.Eng. in Automation, Zhongyuan University of Technology, China.
 
 
-# 🌍 Academic Services
+## Academic Services
+{: #service}
 
-## 📝 Editorial Service
+### Editorial Service
 
 - **Lead Guest Editor**, Special Issue *[Advances in Underwater Image Processing and Analysis](https://www.mdpi.com/journal/jimaging/special_issues/LUG5F450XG)*, *[Journal of Imaging](https://www.mdpi.com/journal/jimaging)*, 2026–present.
 
-## 📝 Peer Review Experience
+### Peer Review Experience
 
 Reviewed **200+ manuscripts** for more than **30 academic journals and conferences**.
 
-### Reviewer for:
+#### Reviewer for:
 
-- *IEEE Transactions on Geoscience and Remote Sensing*
+<ul class="reviewer-list"><li>IEEE Transactions on Geoscience and Remote Sensing</li><li>IEEE Transactions on Circuits and Systems for Video Technology</li><li>IEEE Journal of Oceanic Engineering</li><li>Pattern Recognition</li><li>Engineering Applications of Artificial Intelligence</li><li>Neural Networks</li><li>Applied Soft Computing</li><li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li><li>IEEE International Conference on Image Processing</li><li>Neural Computing and Applications</li><li>The Visual Computer</li><li>Signal, Image and Video Processing</li><li>...and more.</li></ul>
 
-- *IEEE Transactions on Circuits and Systems for Video Technology*
-
-- *IEEE Journal of Oceanic Engineering*
-
-- *Pattern Recognition*
-
-- *Engineering Applications of Artificial Intelligence*
-
-- *Neural Networks*
-
-- *Applied Soft Computing*
-
-- *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*
-
-- *IEEE International Conference on Image Processing*
-
-- *Neural Computing and Applications*
-
-- *The Visual Computer*
-
-- *Signal, Image and Video Processing*
-
-- *...and more.*
+<footer class="homepage-footer">Huanyu Li · Underwater Vision &amp; Vision-Language Understanding <a href="#about-me">Back to top ↑</a></footer>
